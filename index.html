@@ -14,30 +14,229 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/app.scss">
+  <link rel="stylesheet" href="css/header.scss">
+  <link rel="stylesheet" href="css/expertise.scss">
+  <link rel="stylesheet" href="css/metiers.scss">
+  <link rel="stylesheet" href="css/points.scss">
+  <link rel="stylesheet" href="css/contact.scss">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-<div class="container">
-  <div class="row">
-    <div class="col-6 bg-light">
-      Test
-    </div>
-    <div class="col-6 bg-light">
-      Test2
-    </div>
+
+  <div class="container global-container px-0">
+    <header>
+      <img src="img/atc-groupe.png"
+           srcset="img/atc-groupe@2x.png 2x,
+                 img/atc-groupe@3x.png 3x"
+           class="HeaderImg w-100"
+           alt="ATC Groupe Manutacture de supports d'expression">
+
+      <div class="under-construction row mx-0 pe-lg-5">
+        <div class="col-5 offset-1 bg-black text-center text-white app-fw-medium">
+          SITE EN CONSTRUCTION
+        </div>
+      </div>
+
+        <div class="manufacture-container ms-auto mt-2 mt-md-3 mt-lg-4">
+          <p class="manufacture w-100 app-fw-bold">
+            MANUFACTURE
+          </p>
+
+          <p class="supports-expression app-fw-normal mt-n3 mt-md-n4 ps-md-1">
+            DE SUPPORTS D'EXPRESSION
+          </p>
+        </div>
+    </header>
+
+    <section class="expertise row mx-auto align-items-center gx-2 gx-md-4 gx-lg-4 gx-xl-5">
+      <p class="expertise-title text-uppercase col-7 col-md-6 text-end app-fw-bold">
+        Nous mettons notre expertise de manufacturiers au service de votre image.
+      </p>
+
+      <p class="expertise-text col-5 col-md-6 app-fw-normal">
+        En réinventant chaque support.<br />
+        Nous voulons croire que tout est toujours possible et que notre prochain défi
+        n’a encore jamais été réalisé.
+      </p>
+    </section>
+
+    <section class="metiers row mx-auto align-items-end my-2 my-sm-3 my-lg-5 gy-0 gy-md-5">
+      <div class="metiers-img col-12 col-lg-6">
+        <img src="img/atc-groupe-nos-metiers.png"
+             srcset="img/atc-groupe-nos-metiers@2x.png 2x,
+                 img/atc-groupe-nos-metiers@3x.png 3x"
+             class="w-100"
+             alt="Nos métiers">
+      </div>
+
+      <div class="metiers-text col-12 col-lg-6 mt-4 mt-lg-0">
+        <div class="row g-0 metiers-bloc-1 app-fw-bold app-green mt-0 mt-sm-3 mt-lg-0 mb-3 mb-sm-4">
+          <div class="col-6 col-sm-5 col-lg-8 col-xl-7 offset-2 offset-lg-0 text-uppercase">
+            Nous aimons étudier chaque projet, petit ou grand.
+          </div>
+        </div>
+
+        <div class="row g-0 metiers-bloc-2 app-fw-normal">
+          <div class="col-6 offset-4 col-lg-9 offset-lg-2">
+            Faire de la complexité un jeu et de la simplicité
+            un challenge. Nous aimons autant les grandes séries que les casse-têtes créatifs,
+            les concepts, les techniques et les idées. Toutes les idées.
+          </div>
+        </div>
+
+        <div class="row g-0 app-fw-normal metiers-bloc-3 text-center text-lg-start">
+          <div class="col-12 offset-0 col-lg-7 offset-lg-3">
+            NOS
+          </div>
+        </div>
+
+        <div class="app-fw-bold app-green metiers-bloc-4 mt-0 text-center text-lg-start">
+          METIERS
+        </div>
+      </div>
+    </section>
+
+    <section class="points row mx-auto">
+      <div class="col-6 col-sm-5 col-lg-4">
+        <div class="points-1 point-block position-relative app-fw-normal">
+          <h2 class="point-block-text">
+            EXPRESSIONS MONUMENTALES
+          </h2>
+
+          <div class="point-block-square
+                      position-absolute
+                      top-0
+                      start-0
+                      app-fw-bold
+                      text-white
+                      d-flex
+                      justify-content-center
+                      align-items-center">
+              <div>1</div>
+          </div>
+        </div>
+
+        <div class="points-3 point-block position-relative text-uppercase app-fw-normal mt-3">
+          <h2 class="point-block-text">
+            Création de
+            structures
+            événementielles
+          </h2>
+
+          <div class="point-block-square
+                      position-absolute
+                      top-0
+                      start-0
+                      app-fw-bold
+                      text-white
+                      d-flex
+                      justify-content-center
+                      align-items-center">
+            <div>3</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-5 col-lg-4">
+        <div class="point-block position-relative points-2 text-uppercase app-fw-normal mt-5">
+          <h2 class="point-block-text">
+            Communications d’espaces
+          </h2>
+
+          <div class="point-block-square
+                      position-absolute
+                      top-0
+                      start-0
+                      app-fw-bold
+                      text-white
+                      d-flex
+                      justify-content-center
+                      align-items-center">
+            <div>2</div>
+          </div>
+        </div>
+
+        <div class="points-4 point-block position-relative text-uppercase app-fw-normal mt-3">
+          <h2 class="point-block-text">
+            Production
+            de coverings
+            véhicules
+          </h2>
+
+          <div class="point-block-square
+                      position-absolute
+                      top-0
+                      start-0
+                      app-fw-bold
+                      text-white
+                      d-flex
+                      justify-content-center
+                      align-items-center">
+            <div>4</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="row contact-nous mx-auto">
+        <div class="col-3 offset-4 app-fw-normal">NOUS</div>
+      </div>
+
+      <p class="contact-contacter app-fw-bold">
+        CONTACTER
+      </p>
+
+      <div class="row mx-auto align-items-center">
+        <div class="address-vertical col-1 offset-1 offset-xl-1 text-end">
+          ADRESSES
+        </div>
+
+        <address class="col-8">
+          <h3 class="h2 app-fw-bold">ATC LYON</h3>
+
+          <p class="address app-fw-normal mb-1">
+            403, Rue d'Athènes,<br />
+            69140 Rillieux-La-Pape
+          </p>
+
+          <p class="telephone app-fw-bold">
+            +33 (0)4 78 94 61 62<br />
+            +33 (0)4 78 94 26 04
+          </p>
+        </address>
+      </div>
+
+      <div class="row mx-auto pb-5">
+        <div class="col-1 offset-1 offset-xl-1">
+          <div class="address-dash h-100 w-50"></div>
+        </div>
+
+        <address class="col-8 offset-1">
+          <h3 class="h2 app-fw-bold">ATC PARIS</h3>
+
+          <p class="address app-fw-normal mb-1">
+            21, Rue Daval<br />
+            75011 Paris
+          </p>
+
+          <p class="telephone app-fw-bold mb-0">
+            +33 (0)1 42 22 41 97
+          </p>
+        </address>
+      </div>
+    </section>
+
+    <footer>
+
+    </footer>
   </div>
-</div>
 
-
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Test.</p>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
