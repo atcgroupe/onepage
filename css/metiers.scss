@@ -1,0 +1,152 @@
+.metiers {
+  .metiers-bloc-1 {
+    line-height: normal;
+    letter-spacing: normal;
+  }
+
+  .metiers-bloc-2 {
+    line-height: 1.5;
+    letter-spacing: normal;
+  }
+
+  .metiers-bloc-3 {
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+
+  .metiers-bloc-4 {
+    line-height: 1;
+    vertical-align: text-bottom;
+    letter-spacing: -5px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 369px) {
+  .metiers {
+    .metiers-bloc-1 { font-size: 18px; }
+
+    .metiers-bloc-2 {
+      font-size: 9px;
+      margin-top: -10px;
+      margin-bottom: 15px !important;
+    }
+
+    .metiers-bloc-3 {
+      font-size: 24px;
+      margin-bottom: -13px !important;
+    }
+
+    .metiers-bloc-4 {
+      font-size: 55px;
+      letter-spacing: -1px;
+      margin-bottom: -4px !important;
+    }
+  }
+}
+
+@media (min-width: 370px) and (max-width: 576px) {
+  .metiers {
+    .metiers-bloc-1 { font-size: 24px; }
+
+    .metiers-bloc-2 {
+      font-size: 11px;
+      margin-bottom: 20px !important;
+    }
+
+    .metiers-bloc-3 {
+      font-size: 30px;
+      margin-bottom: -17px !important;
+    }
+
+    .metiers-bloc-4 {
+      font-size: 70px;
+      letter-spacing: -1px;
+      margin-bottom: -8px !important;
+    }
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .metiers {
+    .metiers-bloc-1 { font-size: 40px; }
+
+    .metiers-bloc-2 {
+      font-size: 22px;
+      margin-bottom: 30px !important;
+    }
+
+    .metiers-bloc-3 {
+      font-size: 60px;
+      margin-bottom: -35px !important;
+    }
+
+    .metiers-bloc-4 {
+      font-size: 132px;
+      margin-bottom: -16px !important;
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .metiers {
+    .metiers-bloc-1 { font-size: 40px; }
+
+    .metiers-bloc-2 {
+      font-size: 20px;
+      margin-bottom: 30px !important;
+    }
+
+    .metiers-bloc-3 {
+      font-size: 60px;
+      margin-bottom: -35px !important;
+    }
+
+    .metiers-bloc-4 {
+      font-size: 132px;
+      margin-bottom: -16px !important;
+    }
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .metiers {
+    .metiers-bloc-1 { font-size: 44px; }
+
+    .metiers-bloc-2 {
+      font-size: 24px;
+      margin-bottom: 40px !important;
+    }
+
+    .metiers-bloc-3 {
+      font-size: 70px;
+      margin-bottom: -45px !important;
+    }
+
+    .metiers-bloc-4 {
+      font-size: 156px;
+      margin-bottom: -19px !important;
+    }
+  }
+}
+
+@media (min-width: 1201px) {
+  .metiers {
+    .metiers-bloc-1 { font-size: 48px; }
+
+    .metiers-bloc-2 {
+      font-size: 24px;
+      margin-bottom: 65px !important;
+    }
+
+    .metiers-bloc-3 {
+      font-size: 80px;
+      margin-bottom: -45px !important;
+    }
+
+    .metiers-bloc-4 {
+      font-size: 198px;
+      margin-bottom: -25px !important;
+    }
+  }
+}
