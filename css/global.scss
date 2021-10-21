@@ -1,3 +1,93 @@
-.container {
+.global-container {
   max-width: 1300px;
+
+  background-image: url("../img/atc-groupe-focus.svg"),
+                    url("../img/atc-groupe-expressions-monumentales.png");
+  background-repeat: no-repeat;
 }
+
+section.row {
+  overflow: hidden;
+}
+
+.app-fw-bold {
+  font-family: HelveticaNeue, serif;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.app-fw-medium {
+  font-family: HelveticaNeue, serif;
+  font-weight: 600;
+  font-stretch: condensed;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.app-fw-normal {
+  font-family: HelveticaNeue, serif;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.app-green {
+  color: #3eaa55;
+}
+
+@media (max-width: 369px) {
+  .global-container {
+    background-position: bottom 0 right 0, bottom 0 right 0;
+    background-size: 85%, 48%;
+
+    footer { height: 130px; }
+  }
+}
+
+@media (min-width: 370px) and (max-width: 576px) {
+  .global-container {
+    background-position: bottom 0 right 0, bottom 0 right 0;
+    background-size: 80%, 46%;
+
+    footer { height: 150px; }
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .global-container {
+    background-position: bottom 0 right 0, bottom 0 right 55px;
+    background-size: 75%, 35%;
+
+    footer { height: 150px; }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .global-container {
+    background-position: bottom 0 right 0, bottom 0 right 55px;
+    background-size: 70%, 35%;
+
+    footer { height: 150px; }
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+  .global-container {
+    background-position: bottom 0 right 0, bottom 0 right 65px;
+    background-size: 75%, 37%;
+
+    footer { height: 250px; }
+  }
+}
+
+@media (min-width: 1200px) {
+  .global-container {
+    background-position: bottom 0 right 0, bottom 0 right 80px;
+
+    footer { height: 300px; }
+  }
+}
+
