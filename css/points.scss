@@ -1,0 +1,135 @@
+section.points {
+  max-width: 1170px;
+
+  .point-block-text {
+    line-height: 1;
+  }
+
+  .points-1, .points-4 {
+    .point-block-square { background-color: black; }
+  }
+
+  .points-2 {
+    .point-block-text { color: #3eaa55; }
+
+    .point-block-square { background-color: #3eaa55; }
+  }
+
+  .points-3 {
+    .point-block-text { color: #704c32; }
+
+    .point-block-square { background-color: #704c32; }
+  }
+}
+
+@media (max-width: 369px) {
+  .points {
+    margin-top: 40px;
+    .point-block {
+      max-width: 300px;
+      .point-block-text {
+        font-size: 17px;
+        padding: 24px 0 0 24px;
+      }
+
+      .point-block-square {
+        width: 24px;
+        height: 24px;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (min-width: 370px) and (max-width: 576px) {
+  .points {
+    margin-top: 40px;
+    .point-block {
+      max-width: 300px;
+      .point-block-text {
+        font-size: 20px;
+        padding: 30px 0 0 30px;
+      }
+
+      .point-block-square {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .points {
+    margin-top: 80px;
+    .point-block {
+      max-width: 420px;
+      .point-block-text {
+        font-size: 38px;
+        padding: 50px 0 0 50px;
+      }
+
+      .point-block-square {
+        width: 50px;
+        height: 50px;
+        font-size: 34px;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .points {
+    margin-top: 80px;
+    .point-block {
+      max-width: 420px;
+      .point-block-text {
+        font-size: 40px;
+        padding: 52px 0 0 52px;
+      }
+
+      .point-block-square {
+        width: 52px;
+        height: 52px;
+        font-size: 36px;
+      }
+    }
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .points {
+    .point-block {
+      max-width: 420px;
+      .point-block-text {
+        font-size: 40px;
+        padding: 52px 0 0 52px;
+      }
+
+      .point-block-square {
+        width: 52px;
+        height: 52px;
+        font-size: 36px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1201px) {
+  .points {
+    .point-block {
+      max-width: 420px;
+      .point-block-text {
+        font-size: 48px;
+        padding: 60px 0 0 60px;
+      }
+
+      .point-block-square {
+        width: 60px;
+        height: 60px;
+        font-size: 40px;
+      }
+    }
+  }
+}
